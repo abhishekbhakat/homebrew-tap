@@ -7,8 +7,7 @@ class Ppxl < Formula
     url "https://github.com/abhishekbhakat/ppxl/releases/download/v1.0.0/ppxl-1.0.0-arm64"
     sha256 "bb595dd248f36b721d4f777ea0d8d55786aeae98006f6e1b718fe51b167febe9"
   else
-    url "https://github.com/abhishekbhakat/ppxl/releases/download/v1.0.0/ppxl-1.0.0-x86_64"
-    sha256 "REPLACE_WITH_X86_64_SHA256" # Will be updated when x86_64 binary is available
+    odie "Currently only supports Apple Silicon (M1/M2) Macs. Intel support coming soon."
   end
 
   def install
