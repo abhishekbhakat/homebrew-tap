@@ -1,5 +1,5 @@
 class Ppxl < Formula
-  desc "CLI tool to query Perplexity AI from your terminal"
+  desc "CLI tool to access AI assistant from your terminal"
   homepage "https://github.com/abhishekbhakat/ppxl"
   version "1.0.0"
   
